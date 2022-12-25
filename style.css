@@ -2,6 +2,7 @@ body {
     height: 100vh;
     width: 100%;
     margin: 0;
+    overflow-x: hidden;
 }
 
 ul {
@@ -15,11 +16,7 @@ a {
     color: #f9faf8;
 }
 
-img {
-    width: 400px;
-}
-
-button {
+.container1 button {
     background-color: #3882f6;
     color: #f9faf8;
     border-radius: 8px;
@@ -31,6 +28,8 @@ button {
 
 .one {
     background-color: #1f2937;
+    display: flex;
+    flex-direction: column;
 }
 
 .one h1 {
@@ -56,6 +55,7 @@ button {
     display: flex;
     align-items: center;
     padding: 12px;
+    margin-bottom: 50px;
 }
 
 .links {
@@ -63,21 +63,147 @@ button {
     gap: 16px;
 }
 
-.width {
-    display: flex;
-    flex-direction: column;
-}
-
 .container1 {
     display: flex; 
     flex-direction: column;
     width: 400px;
     align-items: flex-start;
-    gap: 8px;
+    justify-content: space-between;
+    height: 300px;
+}
+
+#hashira {
+    height: 30vw;
 }
 
 .content1 {
     display: flex;
+    justify-content: center;
+    gap: 150px;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
 }
 
 /* two */
+
+.two {
+    background-color: white;
+    text-align: center;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    font-size: 36px;
+    font-weight: bold;
+    color: #1f2937;
+}
+
+.content2 {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+
+.content2 p {
+    width: 200px;
+}
+
+#tanjiro, #nezuko, #zenitsu, #inosuke {
+    width: 200px;
+    height: 200px;
+    border: 4px solid #3882f6;
+    border-radius: 20px;
+}
+
+/* three */
+
+.three {
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.author {
+    font-weight: bold;
+    font-size: 24px;
+    color: black;
+    align-self: flex-end;
+}
+
+.container2 {
+    display: flex;
+    flex-direction: column;
+    width: 60vw;
+}
+
+/* four */
+
+.four {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+.container3 {
+    background-color: #3882f6;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 150px;
+    width: 70vw;
+    padding: 10px 20px;
+}
+
+.container4 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.line1 {
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.line2 {
+    color: #f9faf8;
+    font-size: 18px;
+}
+
+.container3 button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 8px;
+    border-color: #f9faf8;
+    border-style: solid;
+    padding: 8px 16px;
+    font-size: 18px;
+}
+
+/* five */
+
+.five {
+    background-color: #1f2937;
+    color: #f9faf8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
